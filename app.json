@@ -1,0 +1,70 @@
+{
+  "expo": {
+    "name": "borrow-buddy",
+    "slug": "borrow-buddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7252717983754109~5997726897"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7252717983754109~5997726897"
+      },
+      "permissions": [
+        "com.google.android.gms.permission.AD_ID"
+      ],
+      "package": "com.ms_oldhorse.borrowbuddy"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#02D3FB"
+        }
+      ],
+      [
+        "expo-dev-launcher",
+        {
+          "launchMode": "most-recent"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c3a8da2a-deb3-4eb5-bcdf-ab9cd826feab"
+      }
+    },
+    "owner": "ms_oldhorse"
+  }
+}
