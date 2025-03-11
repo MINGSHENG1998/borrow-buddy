@@ -1,26 +1,36 @@
 {
   "project_info": {
-    "project_number": "153272661943",
-    "project_id": "borrow-buddy",
-    "storage_bucket": "borrow-buddy.firebasestorage.app"
+    "project_number": "1010944662419",
+    "project_id": "borrow-buddy-f85df",
+    "storage_bucket": "borrow-buddy-f85df.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:153272661943:android:c39a1eb6e6cd86f2d69a32",
+        "mobilesdk_app_id": "1:1010944662419:android:b7a63c85f9fac1dca2e666",
         "android_client_info": {
           "package_name": "com.ms_oldhorse.borrowbuddy"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "1010944662419-i0difrv7stht4ur262v0t0g13vpd5tdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6pWCe9NesXPQmKjgJ7dEekSKE03R4DDE"
+          "current_key": "AIzaSyCv9i1yy2SE9T3zo47WhxlO4gPMt6-y444"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010944662419-i0difrv7stht4ur262v0t0g13vpd5tdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

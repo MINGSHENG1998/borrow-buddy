@@ -52,7 +52,8 @@
         {
           "launchMode": "most-recent"
         }
-      ]
+      ],
+      "expo-tracking-transparency"
     ],
     "experiments": {
       "typedRoutes": true
@@ -62,7 +63,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "c3a8da2a-deb3-4eb5-bcdf-ab9cd826feab"
+        "projectId": "9fb35546-fc15-44ec-ade1-fcbbfb7270b0"
       }
     },
     "owner": "ms_oldhorse"
